@@ -719,7 +719,7 @@
 						android:background="@drawable/shape_btn_date"
 						android:paddingTop="12dp"
 						android:paddingBottom="12dp"
-						android:paddingRight="8dp"
+						android:paddingRight="20dp"
 						android:text="Senin, 29 Oktober 2019"
 						android:textAlignment="textEnd"
 						android:textColor="@color/ThirdGreen"
