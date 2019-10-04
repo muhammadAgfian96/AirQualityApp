@@ -50,16 +50,15 @@
 
 			</com.github.florent37.shapeofview.shapes.ArcView>
 
-
 			<TextView
 				android:id="@+id/textView"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
-				android:layout_marginTop="42dp"
+				android:layout_marginTop="62dp"
 				android:text="@string/title"
 				android:textAlignment="center"
 				android:textColor="@color/PrimaryWhite"
-				android:textSize="38sp"
+				android:textSize="28sp"
 				app:layout_constraintEnd_toEndOf="parent"
 				app:layout_constraintStart_toStartOf="parent"
 				app:layout_constraintTop_toTopOf="parent" />
@@ -74,7 +73,7 @@
 				android:layout_marginRight="20dp"
 				android:background="@drawable/shape_second_green"
 				android:orientation="vertical"
-				android:paddingBottom="15dp"
+				android:paddingBottom="10dp"
 				android:elevation="10dp"
 				app:layout_constraintEnd_toEndOf="parent"
 				app:layout_constraintStart_toStartOf="@+id/arcView"
@@ -87,13 +86,13 @@
 					android:text="Air Parameter Status"
 					android:textAlignment="center"
 					android:textColor="@color/PrimaryGreen"
-					android:textSize="24sp" />
+					android:textSize="20sp" />
 
 				<View
 					android:layout_width="match_parent"
-					android:layout_height="2dp"
+					android:layout_height="0.5dp"
 					android:layout_marginLeft="120dp"
-					android:layout_marginTop="12dp"
+					android:layout_marginTop="10dp"
 					android:layout_marginRight="120dp"
 					android:background="@color/ThirdGreen" />
 
@@ -103,7 +102,7 @@
 					android:layout_width="match_parent"
 					android:layout_height="wrap_content"
 					android:layout_marginLeft="10dp"
-					android:layout_marginTop="22dp"
+					android:layout_marginTop="12dp"
 					android:layout_marginRight="10dp"
 					android:orientation="horizontal"
 					android:weightSum="3"
@@ -134,7 +133,7 @@
 								android:layout_width="match_parent"
 								android:layout_height="wrap_content"
 								android:layout_marginLeft="5dp"
-								android:layout_marginTop="15dp"
+								android:layout_marginTop="10dp"
 								android:layout_marginRight="5dp"
 								android:gravity="top"
 								android:orientation="horizontal"
@@ -145,7 +144,7 @@
 									android:layout_height="wrap_content"
 									android:text="1450"
 									android:textColor="@color/PrimaryGreen"
-									android:textSize="28sp" />
+									android:textSize="22sp" />
 
 								<View
 									android:layout_width="0dp"
@@ -162,7 +161,7 @@
 										android:layout_height="wrap_content"
 										android:text="ppm"
 										android:textColor="@color/PrimaryGreen"
-										android:textSize="13sp" />
+										android:textSize="11sp" />
 
 									<View
 										android:layout_width="0dp"
@@ -183,7 +182,7 @@
 								android:alpha="0.7"
 								android:text="CO2"
 								android:textColor="@color/PrimaryGreen"
-								android:textSize="16sp"
+								android:textSize="14sp"
 
 								/>
 
@@ -215,7 +214,7 @@
 							android:layout_width="match_parent"
 							android:layout_height="wrap_content"
 							android:layout_marginLeft="5dp"
-							android:layout_marginTop="15dp"
+							android:layout_marginTop="10dp"
 							android:layout_marginRight="5dp"
 							android:gravity="top"
 							android:orientation="horizontal"
@@ -226,7 +225,7 @@
 								android:layout_height="wrap_content"
 								android:text="32.55"
 								android:textColor="@color/PrimaryGreen"
-								android:textSize="28sp" />
+								android:textSize="22sp" />
 
 							<View
 								android:layout_width="0dp"
@@ -243,7 +242,7 @@
 									android:layout_height="wrap_content"
 									android:text="%"
 									android:textColor="@color/PrimaryGreen"
-									android:textSize="13sp" />
+									android:textSize="11sp" />
 
 								<View
 									android:layout_width="0dp"
@@ -264,7 +263,7 @@
 							android:alpha="0.7"
 							android:text="O2"
 							android:textColor="@color/PrimaryGreen"
-							android:textSize="16sp"
+							android:textSize="14sp"
 
 							/>
 
@@ -295,7 +294,7 @@
 							android:layout_width="match_parent"
 							android:layout_height="wrap_content"
 							android:layout_marginLeft="5dp"
-							android:layout_marginTop="15dp"
+							android:layout_marginTop="10dp"
 							android:layout_marginRight="5dp"
 							android:gravity="top"
 							android:orientation="horizontal"
@@ -306,7 +305,7 @@
 								android:layout_height="wrap_content"
 								android:text="10.5"
 								android:textColor="@color/PrimaryGreen"
-								android:textSize="28sp" />
+								android:textSize="22sp" />
 
 							<View
 								android:layout_width="0dp"
@@ -323,7 +322,7 @@
 									android:layout_height="wrap_content"
 									android:text="ppb"
 									android:textColor="@color/PrimaryGreen"
-									android:textSize="13sp" />
+									android:textSize="11sp" />
 
 								<View
 									android:layout_width="0dp"
@@ -344,7 +343,7 @@
 							android:alpha="0.7"
 							android:text="TVOC"
 							android:textColor="@color/PrimaryGreen"
-							android:textSize="16sp" />
+							android:textSize="14sp" />
 
 					</LinearLayout>
 				</androidx.cardview.widget.CardView>
@@ -387,7 +386,7 @@
 							android:layout_width="match_parent"
 							android:layout_height="wrap_content"
 							android:layout_marginLeft="5dp"
-							android:layout_marginTop="15dp"
+							android:layout_marginTop="10dp"
 							android:layout_marginRight="5dp"
 							android:gravity="top"
 							android:orientation="horizontal"
@@ -398,7 +397,7 @@
 								android:layout_height="wrap_content"
 								android:text="0.0"
 								android:textColor="@color/PrimaryGreen"
-								android:textSize="28sp" />
+								android:textSize="22sp" />
 
 							<View
 								android:layout_width="0dp"
@@ -415,7 +414,7 @@
 									android:layout_height="wrap_content"
 									android:text="ugm"
 									android:textColor="@color/PrimaryGreen"
-									android:textSize="13sp" />
+									android:textSize="11sp" />
 
 								<View
 									android:layout_width="0dp"
@@ -454,7 +453,7 @@
 							android:alpha="0.7"
 							android:text="PM2.5"
 							android:textColor="@color/PrimaryGreen"
-							android:textSize="16sp"
+							android:textSize="14sp"
 
 							/>
 
@@ -487,7 +486,7 @@
 								android:layout_width="match_parent"
 								android:layout_height="wrap_content"
 								android:layout_marginLeft="5dp"
-								android:layout_marginTop="15dp"
+								android:layout_marginTop="10dp"
 								android:layout_marginRight="5dp"
 								android:gravity="top"
 								android:orientation="horizontal"
@@ -498,7 +497,7 @@
 									android:layout_height="wrap_content"
 									android:text="33.12"
 									android:textColor="@color/PrimaryGreen"
-									android:textSize="28sp" />
+									android:textSize="22sp" />
 
 								<View
 									android:layout_width="0dp"
@@ -515,7 +514,7 @@
 										android:layout_height="wrap_content"
 										android:text="o"
 										android:textColor="@color/PrimaryGreen"
-										android:textSize="10sp" />
+										android:textSize="9sp" />
 
 									<View
 										android:layout_width="0dp"
@@ -534,7 +533,7 @@
 										android:layout_height="wrap_content"
 										android:text="C"
 										android:textColor="@color/PrimaryGreen"
-										android:textSize="13sp" />
+										android:textSize="11sp" />
 
 									<View
 										android:layout_width="0dp"
@@ -555,7 +554,7 @@
 								android:alpha="0.7"
 								android:text="Temp."
 								android:textColor="@color/PrimaryGreen"
-								android:textSize="16sp"
+								android:textSize="14sp"
 
 								/>
 
@@ -588,7 +587,7 @@
 								android:layout_width="match_parent"
 								android:layout_height="wrap_content"
 								android:layout_marginLeft="5dp"
-								android:layout_marginTop="15dp"
+								android:layout_marginTop="10dp"
 								android:layout_marginRight="5dp"
 								android:gravity="top"
 								android:orientation="horizontal"
@@ -599,7 +598,7 @@
 									android:layout_height="wrap_content"
 									android:text="68.92"
 									android:textColor="@color/PrimaryGreen"
-									android:textSize="28sp" />
+									android:textSize="22sp" />
 
 								<View
 									android:layout_width="0dp"
@@ -616,7 +615,7 @@
 										android:layout_height="wrap_content"
 										android:text="%"
 										android:textColor="@color/PrimaryGreen"
-										android:textSize="13sp" />
+										android:textSize="11sp" />
 
 									<View
 										android:layout_width="0dp"
@@ -637,7 +636,7 @@
 								android:alpha="0.7"
 								android:text="RH"
 								android:textColor="@color/PrimaryGreen"
-								android:textSize="16sp"
+								android:textSize="14sp"
 
 								/>
 
