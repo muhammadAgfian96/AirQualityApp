@@ -39,7 +39,7 @@
 				app:layout_constraintEnd_toEndOf="parent"
 				app:layout_constraintStart_toStartOf="parent"
 				app:layout_constraintTop_toTopOf="parent"
-				app:shape_arc_height="40dp"
+				app:shape_arc_height="30dp"
 				app:shape_arc_position="bottom">
 
 				<View
@@ -678,7 +678,7 @@
 						>
 
 						<ImageView
-							android:layout_width="145dp"
+							android:layout_width="130dp"
 							android:layout_height="180dp"
 							android:background="@drawable/pic_btn_graph_new"
 							/>
@@ -698,7 +698,7 @@
 						android:text="About Us"
 						android:textAlignment="center"
 						android:textColor="@color/ThirdGreen"
-						android:textSize="16sp"
+						android:textSize="14sp"
 						android:elevation="6dp"
 
 						/>
@@ -719,11 +719,11 @@
 						android:background="@drawable/shape_btn_date"
 						android:paddingTop="12dp"
 						android:paddingBottom="12dp"
-						android:paddingRight="7dp"
+						android:paddingRight="8dp"
 						android:text="Senin, 29 Oktober 2019"
 						android:textAlignment="textEnd"
 						android:textColor="@color/ThirdGreen"
-						android:textSize="16sp"
+						android:textSize="14sp"
 						android:elevation="6dp"
 						/>
 
@@ -741,7 +741,7 @@
 						>
 
 						<ImageView
-							android:layout_width="145dp"
+							android:layout_width="130dp"
 							android:layout_height="180dp"
 							android:background="@drawable/pic_btn_note"
 							/>
